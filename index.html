@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry Website</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="Navbar">
+        <div class="logo">
+            <div class="logo-mark" aria-label="Mobie Jewlex logo">
+                <i class="fa-solid fa-crown"></i>
+            </div>
+            <h1>Mobie Jewlex</h1>
+        </div>
+        <ul>
+            <li><a href="index.html" id="homo"><b>Home</b></a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="nav-dropdown">
+                <details>
+                    <summary>
+                        Pages
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </summary>
+                    <div class="dropdown-menu">
+                        <a href="index.html">Home</a>
+                        <a href="product.html">Product</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="cart.html">Cart</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="404.html">404</a>
+                    </div>
+                </details>
+            </li>
+            <li><a href="cart.html"><i class="fa-solid fa-cart-shopping" id="oo"></i></a></li>
+        </ul>
+        <a href="#" class="shop-now-btn"><i class="fa-solid fa-cart-shopping" id="oo"></i></a>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-title-left">
+            GenZ<br>&AMP; Luxury
+        </div>
+        
+        <div class="hero-image-container">
+            <img src="/Project Jewelary Website/image Jewelry/Jewelry1.jpg" alt="Jewelry Model" class="hero-image">
+        </div>
+
+        <div class="hero-title-right">
+           <p id="pp">Jewellery</p><p>Collections</p>
+        </div>
+
+    </section>
+    <section class="Jewlex-container">
+        <div class="header-Jewlex">
+            <i class="fa-sharp fa-regular fa-gem"></i>
+            <h1>Easy choose from Jewlix</h1>
+            <p>Core and best collections of all-in-one jewellery</p>
+        </div>
+
+        <secti class="Jewlex-container-1">
+            
+            <div class="Jewlex-card card-small">
+                <div class="card-content">
+                    <span class="badge">NEW ADDED</span>
+                    <h3>Diamond with<br>cream bands</h3>
+             <a href="product.html"><span class="collections-btn"><i class="fa-solid fa-cart-shopping"></i></span></a>
+
+                </div>
+                <div class="card-image">
+                    <img src="/Project Jewelary Website/image Jewelry/Bracelet1.jpg" alt="Diamond Bracelet">
+                </div>
+            </div>
+
+            <div class="Jewlex-card card-small">
+                <div class="card-content">
+                    <span class="badge">-5% OFF</span>
+                    <h3>Diamond with<br>cream necklaces</h3>
+             <a href="product.html"><span class="collections-btn"><i class="fa-solid fa-cart-shopping"></i></span></a>
+
+                </div>
+                <div class="card-image">
+                    <img src="/Project Jewelary Website/image Jewelry/MoonNecklace.jpg" alt="Diamond Necklace">
+                </div>
+            </div>
+
+            <div class="Jewlex-card card-small">
+                <div class="card-content">
+                    <span class="badge">TRENDING</span>
+                    <h3>Ethiopean Lockets<br>cream lockets</h3>
+             <a href="product.html"><span class="collections-btn"><i class="fa-solid fa-cart-shopping"></i></span></a>
+
+                </div>
+                <div class="card-image">
+                    <img src="/Project Jewelary Website/image Jewelry/EthiopeanLockets.jpg" alt="Diamond Locket">
+                </div>
+            </div>
+
+            <div class="Jewlex-card card-large">
+                <div class="card-content">
+                    <div class="award-text">
+                        <i class="fa-solid fa-award"></i> <span>ULTRA PRESTIGIOUS WINNER</span>
+                    </div>
+                    <span class="badge">PURE GOLD + DIAMOND</span>
+                    <h3>Mix with quality<br>elements for rings</h3>
+             <a href="product.html"><span class="collections-btn"><i class="fa-solid fa-cart-shopping"></i></span></a>
+
+                </div>
+                <div class="card-image">
+                    <img src="/Project Jewelary Website/image Jewelry/Ring.jpg" alt="Gold Diamond Ring">
+                </div>
+            </div>
+
+             <div class="Jewlex-card card-large">
+                <div class="card-content">
+                    <span class="badge">GET 20% OFF ON WATCHES</span>
+                    <h3>Where craftsmanship<br>meets elegance</h3>
+
+             <a href="product.html"><span class="collections-btn"><i class="fa-solid fa-cart-shopping"></i></span></a>
+                </div>
+                <div class="card-image">
+                    <img src="/Project Jewelary Website/image Jewelry/Dreamwatch.jpg" alt="Luxury Watch">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <br>
+<section class="Product-container">
+
+        <div class="Product-Header">
+            <span id="uu"><i class="fa-solid fa-ring"></i></span>
+            <h1>Featured products</h1>
+            <p>Our artisans spare no effort in creating exquisite works</p>
+
+            <ul class="Product-tabs">
+                <li class="tab active">All products</li>
+                <li class="tab">Ring</li>
+                <li class="tab">Earring</li>
+                <li class="tab">Watch</li>
+            </ul>
+        </div>
+
+        <div class="Product-grid">
+
+            <div class="Product-card" data-category="ring">
+                <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
+                <div class="Product-image" >
+                    <img src="/Project Jewelary Website/image Jewelry/Solitaire.jpg" alt="Solitaire Band">
+                </div>
+                <h3>Solitaire Band in Rose Gold With Diamond Accent</h3>
+                <p class="price">$128.71</p>
+                <a href="product.html"><span class="collections-btn"><i class="fa-solid fa-cart-shopping"></i></span></a>
+
+            </div>
+
+            <div class="Product-card"data-category="ring">
+                <span class="rating"><i class="fa-solid fa-star"></i> 4.8</span>
+                <div class="Product-image" >
+                    <img src="/Project Jewelary Website/image Jewelry/GreenRing.jpg" alt="Minimal Locket">
+                </div>
+                <h3>Minimal Locket Pendant in Rose Gold With Matte Finish</h3>
+                <p class="price">$100.00</p>
+                <a href="product.html"><span class="collections-btn"><i class="fa-solid fa-cart-shopping"></i></span></a>
+
+            </div>
+
+            <div class="Product-card" data-category="ring">
+                <span class="rating"><i class="fa-solid fa-star"></i> 4.7</span>
+                <div class="Product-image" >
+                    <img src="/Project Jewelary Website/image Jewelry/Ring1.jpg" alt="Emerald-Cut Ring">
+                </div>
+                <h3>Emerald-Cut Ring in White Gold With Emerald Centerpiece</h3>
+                <p class="price">$80.25</p>
+                <a href="product.html"><span class="collections-btn"><i class="fa-solid fa-cart-shopping"></i></span></a>
+
+            </div>
+
+            <div class="Product-card" data-category="earring">
+                <span class="rating"><i class="fa-solid fa-star"></i> 4.8</span>
+                <div class="Product-image" >
+                    <img src="/Project Jewelary Website/image Jewelry/GoldenEar1.jpg" alt="Hoop Earrings">
+                </div>
+                <h3>White Gold Hoop Earrings With Pavé Diamond Detailing</h3>
+                <p class="price">$68.50</p>
+                <a href="product.html"><span class="collections-btn"><i class="fa-solid fa-cart-shopping"></i></span></a>
+
+            </div>
+
+            <div class="Product-card" data-category="earring">
+                <span class="rating"><i class="fa-solid fa-star"></i> 4.5</span>
+                <div class="Product-image" >
+                    <img src="/Project Jewelary Website/image Jewelry/GoldenEar.jpg" alt="Teardrop Earrings">
+                </div>
+                <h3>Teardrop Earrings in Yellow Gold With Sapphire Drops</h3>
+                <p class="price">$158.00</p>
+                <a href="product.html"><span class="collections-btn"><i class="fa-solid fa-cart-shopping"></i></span></a>
+
+            </div>
+
+            <div class="Product-card" data-category="watch">
+                <span class="rating"><i class="fa-solid fa-star"></i> 4.4</span>
+                <div class="Product-image" >
+                    <img src="/Project Jewelary Website/image Jewelry/wacth2.jpg" alt="Minimalist Gold Watch">
+                </div>
+                <h3>Minimalist Gold Watch With Mesh Band and Black Dial</h3>
+                <p class="price">$128.73</p>
+                <a href="product.html"><span class="collections-btn"><i class="fa-solid fa-cart-shopping"></i></span></a>
+
+            </div>
+
+            <div class="Product-card" data-category="watch">
+                <span class="rating"><i class="fa-solid fa-star"></i> 4.3</span>
+                <div class="Product-image" >
+                    <img src="/Project Jewelary Website/image Jewelry/silverhand.jpg" alt="Oval Locket">
+                </div>
+                <h3>Oval Locket in Sterling Silver With Engraved Detail</h3>
+                <p class="price">$88.75</p>
+                <a href="product.html"><span class="collections-btn"><i class="fa-solid fa-cart-shopping"></i></span></a>
+
+            </div>
+
+            <div class="Product-card" data-category="watch">
+                <span class="rating"><i class="fa-solid fa-star"></i> 4.2</span>
+                <div class="Product-image">
+                    <img src="/Project Jewelary Website/image Jewelry/Wacth1.jpg" alt="Chronograph Watch">
+                </div>
+                <h3>Chronograph Watch With Black Leather Strap and Silver Case</h3>
+                <p class="price">$90.00</p>
+                <a href="product.html"><span class="collections-btn"><i class="fa-solid fa-cart-shopping"></i></span></a>
+
+            </div>
+
+        </div>
+
+        <div class="Product-more">
+         <a href="product.html"><button>MORE PRODUCTS</button></a>
+        </div>
+
+    </section>
+  <section class="promo-video-section">
+    <video autoplay muted loop playsinline class="section-video">
+        <source src="/Project Jewelary Website/media/Jewellry1.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <div class="deal-card">
+        <div class="countdown-timer">00:00:00:00</div>
+        <h2>Grab your deal today!</h2>
+        <p>Core and best collections of all-in-one jewellery</p>
+        <a href="#" class="exclusive-btn">EXCLUSIVE COLLECTIONS</a>
+    </div>
+</section>
+<br>
+<section class="jewelry-showcase">
+    <div class="showcase-text">
+        <h2>Embrace the beauty of<br><span>understated elegance</span></h2>
+
+        <div class="feature-list">
+            <div class="feature">
+                <div class="feature-icon"><i class="fa-solid fa-gem"></i></div>
+                <div class="feature-copy">
+                    <strong>Quality products</strong>
+                    <p>Discover top-quality products at unbeatable prices</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon"><i class="fa-solid fa-message"></i></div>
+                <div class="feature-copy">
+                    <strong>24/7 on time support</strong>
+                    <p>Effort to building exceptional designs</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon"><i class="fa-solid fa-arrow-rotate-left"></i></div>
+                <div class="feature-copy">
+                    <strong>Free and easy return</strong>
+                    <p>Designers put forth endless passion into crafting</p>
+                </div>
+            </div>
+        </div>
+
+        <a href="contact.html" class="cta-btn">GET IN TOUCH</a>
+    </div>
+
+    <div class="showcase-visual">
+        <div class="showcase-image-stack">
+            <img src="/Project Jewelary Website/image Jewelry/daimonEar.jpg" alt="Gold chain" id="image1">
+            <img src="/Project Jewelary Website/image Jewelry/nickness.jpg" alt="Gold bracelet" id="image2">
+        </div>
+
+</section>
+<br>
+  <div class="marquee-wrapper theme-light">
+    <div class="marquee-track">
+      <span class="marquee-text">Curated product collections</span> <span class="divider-icon"></span>
+      <span class="marquee-text">Affordable pricing</span> <span class="divider-icon"></span>
+      <span class="marquee-text">24/7 Customer support</span> <span class="divider-icon"></span>
+      
+      <span class="marquee-text">Curated product collections</span> <span class="divider-icon"></span>
+      <span class="marquee-text">Affordable pricing</span> <span class="divider-icon"></span>
+      <span class="marquee-text">24/7 Customer support</span> <span class="divider-icon"></span>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="marquee-wrapper theme-dark">
+    <div class="marquee-track">
+      <span class="marquee-text">Unique collections</span> <span class="divider-icon"></span>
+      <span class="marquee-text">Easy returns and exchanges</span> <span class="divider-icon"></span>
+      <span class="marquee-text">100% secure checkout</span> <span class="divider-icon"></span>
+      
+      <span class="marquee-text">Unique collections</span> <span class="divider-icon"></span>
+      <span class="marquee-text">Easy returns and exchanges</span> <span class="divider-icon"></span>
+      <span class="marquee-text">100% secure checkout</span> <span class="divider-icon"></span>
+    </div>
+  </div>
+<section class="recently-showcase">
+    <div class="showcase-left">
+        <h2>Recently added</h2>
+        <p>We’re passionate about helping you find what you need, when you need it—hassle-free.</p>
+    </div>
+
+    <div class="showcase-right">
+        <div class="product-card">
+            <img src="/Project Jewelary Website/image Jewelry/Ring2.jpg" alt="Solitaire Band">
+            <h3>Solitaire Band in Rose Gold With Diamond Accent</h3>
+            <p class="price">$58.73</p>
+            <p class="rating">⭐ 4.9</p>
+            <a href="product.html"><span class="collections-btn"><i class="fa-solid fa-cart-shopping"></i></span></a>
+
+        </div>
+
+        <div class="product-card">
+            <img src="/Project Jewelary Website/image Jewelry/nickness3.jpg" alt="Minimal Locket Pendant">
+            <h3>Minimal Locket Pendant in Rose Gold With Matte Finish</h3>
+            <p class="price">$100.00</p>
+            <p class="rating">⭐ 4.8</p>
+            <a href="product.html"><span class="collections-btn"><i class="fa-solid fa-cart-shopping"></i></span></a>
+
+        </div>
+
+        <div class="product-card">
+            <img src="/Project Jewelary Website/image Jewelry/nickness2.jpg" alt="Emerald-Cut Ring">
+            <h3>Emerald-Cut Ring in White Gold With Emerald Centerpiece</h3>
+            <p class="price">$80.25</p>
+            <p class="rating">⭐ 4.7</p>
+            <a href="product.html"><span class="collections-btn"><i class="fa-solid fa-cart-shopping"></i></span></a>
+
+        </div>
+    </div>
+</section>
+
+<section class="newsletter-section">
+    <div class="newsletter-panel">
+        <div class="newsletter-image left-image">
+            <img src="/Project Jewelary Website/image Jewelry/daimonEar.jpg" alt="Jewelry model">
+        </div>
+
+        <div class="newsletter-content">
+            <h2>5% <span>offer for newsletter</span></h2>
+            <p>We’re passionate about helping you find what you need, when you need it—hassle-free.</p>
+
+            <form class="newsletter-form">
+                <input type="email" value="jane@framer.com" aria-label="Email address">
+                <button type="submit">SUBSCRIB E</button>
+            </form>
+        </div>
+
+        <div class="newsletter-image right-image">
+            <img src="/Project Jewelary Website/image Jewelry/nickness.jpg" alt="Jewelry detail">
+        </div>
+    </div>
+</section>
+
+<section class="brand-strip">
+    <div class="brand-item">
+        <span class="brand-mark">✦</span>
+        <span>Logoipsum</span>
+    </div>
+    <div class="brand-item">
+        <span class="brand-mark brand-mark-dark">◍</span>
+        <span>Logoipsum</span>
+    </div>
+    <div class="brand-item">
+        <span class="brand-mark">✧</span>
+        <span>Logoipsum</span>
+    </div>
+    <div class="brand-item">
+        <span class="brand-mark brand-mark-dark">✦</span>
+        <span>Logoipsum</span>
+    </div>
+    <div class="brand-item">
+        <span class="brand-mark">✦</span>
+        <span>Logoipsum</span>
+    </div>
+</section>
+
+<section class="blog-section">
+    <div class="blog-header">
+        <h2>Blog &amp; insights</h2>
+        <p>Our craftsmen devote full dedication to producing truly remarkable pieces.</p>
+    </div>
+
+    <div class="blog-grid">
+        <article class="blog-card">
+            <img src="/Project Jewelary Website/image Jewelry/EarRing2.jpeg" alt="Jewelry close-up">
+            <h3>How to Choose the Perfect Jewelry for Every Occasion</h3>
+            <div class="blog-meta">
+                <span>SEP 14, 2025</span>
+                <span class="meta-separator">•</span>
+                <span>Ricky Silva</span>
+            </div>
+        </article>
+
+        <article class="blog-card">
+            <img src="/Project Jewelary Website/image Jewelry/EarRing!.jpg" alt="Woman wearing jewelry">
+            <h3>Gold vs. Silver: Which Jewelry Matches Your Style?</h3>
+            <div class="blog-meta">
+                <span>SEP 4, 2025</span>
+                <span class="meta-separator">•</span>
+                <span>Linda Keller</span>
+            </div>
+        </article>
+
+        <article class="blog-card">
+            <img src="/Project Jewelary Website/image Jewelry/EarRing.jpg" alt="Woman with earrings">
+            <h3>How to Pick the Right Earrings for Your Face Shape</h3>
+            <div class="blog-meta">
+                <span>SEP 23, 2025</span>
+                <span class="meta-separator">•</span>
+                <span>Lisa Nooney</span>
+            </div>
+        </article>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="footer-top">
+        <div class="footer-col about-col">
+            <h3>About us</h3>
+            <p>Jewelix is your trusted destination for premium products, unbeatable deals, and fast, secure shopping. We’re committed to making online shopping effortless and enjoyable for everyone.</p>
+        </div>
+
+        <div class="footer-col links-col">
+            <h3>Quick links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Shop All</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="contact.html">Get in touch</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col contact-col">
+            <h3>Get in touch</h3>
+            <ul>
+                <li><a href="mailto:info@jewelix.com">info@jewelix.com</a></li>
+                <li><a href="tel:+1234567890012">+123 456 789 00-12</a></li>
+                <li>12/B, New Boston Tower<br>NYC, US</li>
+            </ul>
+        </div>
+
+        <div class="footer-col insta-col">
+            <h3>Instagram feed</h3>
+            <div class="insta-grid">
+                <img src="/Project Jewelary Website/image Jewelry/daimonEar.jpg" alt="Instagram post 1">
+                <img src="/Project Jewelary Website/image Jewelry/nickness.jpg" alt="Instagram post 2">
+                <img src="/Project Jewelary Website/image Jewelry/Bracelet1.jpg" alt="Instagram post 3">
+                <img src="/Project Jewelary Website/image Jewelry/MoonNecklace.jpg" alt="Instagram post 4">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="copyright">Copyright &amp; design by <span>@RedDeys</span> - 2025</div>
+
+        <div class="footer-brand">
+            <div class="logo">
+                <div class="logo-mark" aria-label="Mobie Jewlex logo">
+                    <i class="fa-solid fa-crown"></i>
+                </div>
+                <h1>Mobie Jewlex</h1>
+            </div>
+        </div>
+
+        <div class="socials">
+            <a href="https://www.facebook.com/" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://x.com/" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/?hl=en" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.pinterest.com/" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
